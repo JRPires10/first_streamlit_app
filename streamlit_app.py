@@ -1,8 +1,8 @@
 import streamlit
 
-streamlit.title('My Parents New Healthy Diner')
+streamlit.title('Oh Ritinha, vamos comer?')
 
-streamlit.header('Breakfast Menu')
-streamlit.text('Omega 3 & Blueberry Oatmeal')
-streamlit.text('Kale, Spinach & Rocket Smoothie')
-streamlit.text('Hard-Boiled Free-Range Egg')
+streamlit.header('Lunch Menu')
+streamlit.text('Peixinho assado')
+streamlit.text('Massa à bolonhesa')
+streamlit.text('Não sei mais')
