@@ -29,6 +29,8 @@ streamlit.write('The user entered ', fruit_choice)
 #Import requests to display API response
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 
 #take the json version of the response and normalize it
